@@ -33,5 +33,5 @@ else {
 }
 console.log(time);
 ReactDOM.render(<div>
-    <h1 style={inlineStyle}> {greeting}</h1>
+    <h1 style={inlineStyle} className='heading'> {greeting}</h1>
 </div>, document.getElementById('root'));

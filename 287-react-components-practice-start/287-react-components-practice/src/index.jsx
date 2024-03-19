@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from  "./components/App";
+import App from "./App.jsx"
 
 ReactDOM.render(
-  <App/>,document.getElementById("root")
+  <App/>,
+  document.getElementById("root")
 );
 
 // If you're running this locally in VS Code use the commands:
